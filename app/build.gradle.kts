@@ -63,6 +63,22 @@ android {
             isIncludeAndroidResources = true
         }
     }
+
+    packaging {
+        resources {
+            excludes += setOf(
+                "META-INF/LICENSE.md",
+                "META-INF/LICENSE-notice.md",
+                "META-INF/NOTICE.md",
+                "META-INF/NOTICE",
+                "META-INF/LICENSE",
+                "META-INF/ASL2.0",
+                "META-INF/*.kotlin_module",
+                // Also exclude duplicate service-loader entries from JUnit Platform
+                "META-INF/services/org.junit.platform.launcher.TestExecutionListener",
+            )
+        }
+    }
 }
 
 dependencies {
@@ -118,7 +134,7 @@ dependencies {
     // Accompanist
     implementation(libs.accompanist.systemuicontroller)
 
-    // Unit Tests
+    // Unit Tests — scope: test only, never leaks into the APK
     testImplementation(libs.junit)
     testImplementation(libs.mockk)
     testImplementation(libs.turbine)
@@ -126,7 +142,7 @@ dependencies {
     testImplementation(libs.google.truth)
     testImplementation(libs.arch.core.testing)
 
-    // Android Tests
+    // Android Instrumented Tests
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.ui.test.junit4)
     androidTestImplementation(libs.hilt.android.testing)
@@ -135,4 +151,6 @@ dependencies {
 
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+
 }
