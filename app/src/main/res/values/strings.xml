@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WeatherNow</string>
+    <string name="search_hint">Search cities…</string>
+    <string name="favorites">Favorites</string>
+    <string name="all_cities">All Cities</string>
+    <string name="no_cities_found">No cities found</string>
+    <string name="offline_banner">You\'re offline, it\'s only showing cached data</string>
+    <string name="notification_channel_id">weather_hourly_channel</string>
+    <string name="notification_channel_name">Hourly Weather Updates</string>
+    <string name="notification_channel_desc">Sends weather conditions for your favorite city every hour</string>
+    <string name="feels_like">Feels like</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind">Wind</string>
+    <string name="visibility">Visibility</string>
+    <string name="pressure">Pressure</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="sunset">Sunset</string>
+    <string name="high_low">H/L</string>
+    <string name="loading">Loading…</string>
+    <string name="retry">Retry</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="add_to_favorites">Add to favorites</string>
+    <string name="remove_from_favorites">Remove from favorites</string>
+    <string name="last_updated">Last updated</string>
+</resources>

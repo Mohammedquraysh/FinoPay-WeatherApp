@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.weather.app-mergeDebugResources-71:/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "/Users/mac/.gradle/caches/8.9/transforms/0800b3fe80e387ea1191be286864f971/transformed/core-splashscreen-1.0.1/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "85",
+                        "endOffsets": "136"
+                    }
+                }
+            ]
+        }
+    ]
+}

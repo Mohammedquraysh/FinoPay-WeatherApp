@@ -1,0 +1,2 @@
+-keep,allowobfuscation,allowshrinking class com.weather.app.presentation.citylist.CityListViewModel
+-keep,allowobfuscation,allowshrinking class com.weather.app.presentation.citylist.CityListViewModel

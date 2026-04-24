@@ -1,0 +1,30 @@
+R_DEF: Internal format may change without notice
+local
+color splash_background
+drawable ic_notification_weather
+mipmap ic_launcher
+mipmap ic_launcher_round
+string add_to_favorites
+string all_cities
+string app_name
+string favorites
+string feels_like
+string high_low
+string humidity
+string last_updated
+string loading
+string no_cities_found
+string notification_channel_desc
+string notification_channel_id
+string notification_channel_name
+string offline_banner
+string pressure
+string remove_from_favorites
+string retry
+string search_hint
+string something_went_wrong
+string sunrise
+string sunset
+string visibility
+string wind
+style Theme.WeatherApp

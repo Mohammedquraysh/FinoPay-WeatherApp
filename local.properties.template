@@ -1,0 +1,12 @@
+## This file must *NOT* be checked into Version Control Systems,
+## as it contains information specific to your local installation.
+##
+## Location of the Android SDK. This is only used by Gradle.
+## For customization when using a Version Control System, please read the
+## header note.
+sdk.dir=/path/to/your/android/sdk
+
+## OpenWeatherMap API Key
+## Get a free key at https://openweathermap.org/api
+## After creating an account, go to API Keys and generate a key
+WEATHER_API_KEY=YOUR_OPENWEATHERMAP_API_KEY_HERE

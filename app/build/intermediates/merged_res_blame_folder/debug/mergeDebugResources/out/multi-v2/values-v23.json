@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.weather.app-mergeDebugResources-71:/values-v23/values-v23.xml",
+            "map": [
+                {
+                    "source": "/Users/mac/.gradle/caches/8.9/transforms/a9bc2d8125cd80afc804a97c86b24761/transformed/work-runtime-2.9.1/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,121",
+                        "endColumns": "65,62",
+                        "endOffsets": "116,179"
+                    }
+                }
+            ]
+        }
+    ]
+}
